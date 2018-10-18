@@ -1,0 +1,27 @@
+{
+  "name": "Area Now",
+  "description": "Plugin to calculate the total area of selected rectangle layers",
+  "author": "Sam Morrison, Norman Wozniak",
+  "version": "0.1",
+  "identifier": "AreaNow",
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "📐 Area Now 🗜",
+      "identifier": "measure-identifier",
+      "script": "measure.js",
+      "shortcut": "cmd option shift a",
+      "handler": "onRun"
+    }
+  ],
+  "menu": {
+    "items": [
+      "measure-identifier"
+    ],
+    "isRoot": true
+  },
+  "disableCocoaScriptPreprocessor": true
+}
