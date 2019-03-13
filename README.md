@@ -17,4 +17,5 @@ With Area Now you can get the total area of selected rectangle layers!
 Thanks!
 
 #Team Work
-This plugin wouldn't have existed without Sam Morrison! Thank you!
+
+This plugin wouldn't have existed without Sam Morrison @sailormansam! Thank you!
