@@ -1,0 +1,25 @@
+{
+  "name": "Area Now",
+  "description": "Plugin to measure the total area of selected rectangle layers",
+  "author": "Sam Morrison, Norman Wozniak",
+  "homepage": "",
+  "version": "0.1",
+  "identifier": "",
+  "appcast": "",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands" : [
+    {
+      "name" : "📐 Area Now 🗜",
+      "identifier" : "measure-identifier",
+      "script" : "./measure.js",
+      "shortcut": "cmd option shift a",
+      "handler" : "onRun"
+    }
+  ],
+  "menu": {
+    "items": ["measure-identifier"],
+    "isRoot": true
+  }
+}

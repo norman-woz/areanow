@@ -115,10 +115,8 @@ if (selectedCount === 0) {
   context.document.showMessage('No layers are selected.');
 } else {
   var totalSurfaceArea = 0;
-  var v = 0;
-  selectedLayers.forEach(function (layer, i) {
-    v = layer.frame.width * layer.frame.height;
-    totalSurfaceArea = totalSurfaceArea + v;
+  selectedLayers.forEach(function (layer) {
+    totalSurfaceArea += layer.frame.width * layer.frame.height;
   });
   context.document.showMessage('Total Surface Area: ' + totalSurfaceArea + " square pixels 💥");
 }

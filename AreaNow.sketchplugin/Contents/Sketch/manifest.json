@@ -1,9 +1,9 @@
 {
   "name": "Area Now",
-  "description": "Plugin to calculate the total area of selected rectangle layers",
+  "description": "Plugin to measure the total area of selected rectangle layers",
   "author": "Sam Morrison, Norman Wozniak",
   "version": "0.1",
-  "identifier": "AreaNow",
+  "identifier": "areanow",
   "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
   "compatibleVersion": 3,
   "bundleVersion": 1,
