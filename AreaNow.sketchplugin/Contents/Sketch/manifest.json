@@ -8,6 +8,7 @@
   "compatibleVersion": 3,
   "bundleVersion": 1,
   "icon": "icon.png",
+  "license": "MIT License",
   "commands": [
     {
       "name": "📐 Area Now 🗜",
@@ -22,6 +23,10 @@
       "measure-identifier"
     ],
     "isRoot": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/norman-woz/areanow.git"
   },
   "disableCocoaScriptPreprocessor": true
 }
