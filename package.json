@@ -1,6 +1,6 @@
 {
   "name": "areanow",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "engines": {
     "sketch": ">=3.0"
   },
@@ -24,8 +24,8 @@
   "dependencies": {
     "skpm": "^1.1.9"
   },
- "repository": {
-       "type": "git",
-       "url": "https://github.com/norman-woz/areanow.git"
-    }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/norman-woz/areanow.git"
+  }
 }
