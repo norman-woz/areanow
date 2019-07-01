@@ -1,11 +1,11 @@
 {
-  "name": "Area Now",
+  "name": "'Area Now'",
   "version": "2.2.0",
   "engines": {
     "sketch": ">=3.0"
   },
   "skpm": {
-    "name": "Area Now",
+    "name": "'Area Now'",
     "manifest": "src/manifest.json",
     "main": "areanow.sketchplugin",
     "assets": [
