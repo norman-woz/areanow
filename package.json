@@ -5,7 +5,7 @@
     "sketch": ">=3.0"
   },
   "skpm": {
-    "name": "areanow",
+    "name": "Area Now",
     "manifest": "src/manifest.json",
     "main": "areanow.sketchplugin",
     "assets": [
